@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e77c91a7-77f1-4d43-8a31-c72d6fc386ae" name="Changes" comment="" />
+    <list default="true" id="e77c91a7-77f1-4d43-8a31-c72d6fc386ae" name="Changes" comment="mit dem COde begonnen">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordTrainerGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Worttrainer_UML.asta" beforeDir="false" afterPath="$PROJECT_DIR$/Worttrainer_UML.asta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,8 +37,19 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2VfCo0EvzQ6XXPKLlZNEu22yBTY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,15 +57,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Schule/5Jahrgang/1Semester/SEW/Worttrainer&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Schule/5Jahrgang/1Semester/SEW/Worttrainer",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tgm.ac.at.parnold.Main" />
+      <module name="Worttrainer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tgm.ac.at.parnold.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +96,46 @@
       <option name="presentableId" value="Default" />
       <updated>1695217925420</updated>
       <workItem from="1695217927458" duration="915000" />
+      <workItem from="1696421397059" duration="4782000" />
+      <workItem from="1697016036149" duration="1348000" />
+      <workItem from="1697378481148" duration="10071000" />
     </task>
+    <task id="LOCAL-00001" summary="Gradel als Git machen">
+      <created>1695219053990</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695219053990</updated>
+    </task>
+    <task id="LOCAL-00002" summary="UML Diagramm: 1 Entwurf">
+      <created>1696427773992</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696427773992</updated>
+    </task>
+    <task id="LOCAL-00003" summary="UML Diagramm: weitergemacht">
+      <created>1697382504895</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697382504895</updated>
+    </task>
+    <task id="LOCAL-00004" summary="mit dem COde begonnen">
+      <created>1697433832498</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697433832498</updated>
+    </task>
+    <task id="LOCAL-00005" summary="mit dem COde begonnen">
+      <created>1697434346666</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697434346666</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +151,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Gradel als Git machen" />
+    <MESSAGE value="UML Diagramm: 1 Entwurf" />
+    <MESSAGE value="UML Diagramm: weitergemacht" />
+    <MESSAGE value="mit dem COde begonnen" />
+    <option name="LAST_COMMIT_MESSAGE" value="mit dem COde begonnen" />
   </component>
 </project>
