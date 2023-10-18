@@ -35,10 +35,10 @@ public class WordspellTrainer {
     public boolean check(String input){
         if(pickedWord.validate(input)) {
             stats.addRightWords();
+            pickRandom();
             return true;
         } else
             stats.addWrongWords();
-        pickRandom();
         return false;
     }
 

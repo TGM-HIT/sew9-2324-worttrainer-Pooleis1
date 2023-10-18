@@ -25,6 +25,7 @@ public class WordTrainerGUI extends JFrame {
 
         tfield = new JTextField();
         image = new JLabel(new ImageIcon(""));
+        image.setSize(300,150);
         JButton submit = new JButton("Abschicken");
         JButton exit = new JButton("Beenden");
 
