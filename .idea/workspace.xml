@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e77c91a7-77f1-4d43-8a31-c72d6fc386ae" name="Changes" comment="mit dem COde begonnen">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordTrainerGUI.java" afterDir="false" />
+    <list default="true" id="e77c91a7-77f1-4d43-8a31-c72d6fc386ae" name="Changes" comment="Überarbeitet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worttrainer_UML.asta" beforeDir="false" afterPath="$PROJECT_DIR$/Worttrainer_UML.asta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordTrainerGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordTrainerGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordTrainerSaveManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordTrainerSaveManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordspellTrainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordspellTrainer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -60,7 +64,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Schule/5Jahrgang/1Semester/SEW/Worttrainer",
+    "last_opened_file_path": "D:/PythonTesting/TestProject/TestDjango/TestProj",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -98,7 +102,7 @@
       <workItem from="1695217927458" duration="915000" />
       <workItem from="1696421397059" duration="4782000" />
       <workItem from="1697016036149" duration="1348000" />
-      <workItem from="1697378481148" duration="10071000" />
+      <workItem from="1697378481148" duration="18873000" />
     </task>
     <task id="LOCAL-00001" summary="Gradel als Git machen">
       <created>1695219053990</created>
@@ -135,7 +139,28 @@
       <option name="project" value="LOCAL" />
       <updated>1697434346666</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="GUI programmiert">
+      <created>1697467127900</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697467127905</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fehler gefixed">
+      <created>1697625158271</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697625158273</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Überarbeitet">
+      <created>1697626862905</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697626862905</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +182,9 @@
     <MESSAGE value="UML Diagramm: 1 Entwurf" />
     <MESSAGE value="UML Diagramm: weitergemacht" />
     <MESSAGE value="mit dem COde begonnen" />
-    <option name="LAST_COMMIT_MESSAGE" value="mit dem COde begonnen" />
+    <MESSAGE value="GUI programmiert" />
+    <MESSAGE value="Fehler gefixed" />
+    <MESSAGE value="Überarbeitet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Überarbeitet" />
   </component>
 </project>
