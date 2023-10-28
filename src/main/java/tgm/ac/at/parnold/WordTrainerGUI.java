@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -49,7 +50,7 @@ public class WordTrainerGUI extends JFrame {
                     JOptionPane.showMessageDialog(null, "Richtig!");
                 else
                     JOptionPane.showMessageDialog(null, "Falsch!");
-                JOptionPane.showMessageDialog(null, trainer.getStatistic());
+                JOptionPane.showMessageDialog(null, trainer.getTextStatistic());
                 tfield.setText("");
             }
         });
@@ -57,14 +58,18 @@ public class WordTrainerGUI extends JFrame {
         exit.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                WordTrainerSaveManager persistence = new JSONSaveManager();
-                //persistence.save(trainer);
+                try {
+                    trainer.save("saveTrainer.json");
+                } catch (IOException ex) {
+                    throw new RuntimeException(ex);
+                }
                 System.exit(0);
             }
         });
 
     }
 
+    //mby überarbeiten
     public void setImage(String picture){
         try {
             ImageIcon imageIcon = new ImageIcon(new URL(picture));

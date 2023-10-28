@@ -35,4 +35,8 @@ public class WordPair {
     public String getImageURL(){
         return imageURL;
     }
+
+    public String getWord(){
+        return word;
+    }
 }

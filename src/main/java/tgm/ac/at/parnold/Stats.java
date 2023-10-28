@@ -10,6 +10,12 @@ public class Stats {
         resetAll();
     }
 
+    public Stats(int rightWords, int wrongWords, int tryedWords){
+        this.rightWords = rightWords;
+        this.wrongWords = wrongWords;
+        this.tryedWords = tryedWords;
+    }
+
     public void resetAll(){
         rightWords = 0;
         wrongWords = 0;
