@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e77c91a7-77f1-4d43-8a31-c72d6fc386ae" name="Changes" comment="Persitenz implementiert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/JSONSaveManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/JSONSaveManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/Stats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/Stats.java" afterDir="false" />
@@ -107,7 +106,7 @@
       <workItem from="1696421397059" duration="4782000" />
       <workItem from="1697016036149" duration="1348000" />
       <workItem from="1697378481148" duration="20618000" />
-      <workItem from="1698400330810" duration="9134000" />
+      <workItem from="1698400330810" duration="12107000" />
     </task>
     <task id="LOCAL-00001" summary="Gradel als Git machen">
       <created>1695219053990</created>
@@ -186,7 +185,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698445615782</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Persitenz implementiert">
+      <created>1698454395345</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698454395345</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Persitenz implementiert">
+      <created>1698454418631</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1698454418631</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

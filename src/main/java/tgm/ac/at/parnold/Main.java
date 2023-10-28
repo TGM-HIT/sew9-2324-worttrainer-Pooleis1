@@ -4,7 +4,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Die Klasse ist ausschließlich zum starten da und setzt die gewünschten Startwerte für die anderen Klassen
+ * @author Pia Arnold
+ * @version 23-10-28
+ */
 public class Main {
+
     public static void main(String[] args) {
 
         WordspellTrainer trainer;

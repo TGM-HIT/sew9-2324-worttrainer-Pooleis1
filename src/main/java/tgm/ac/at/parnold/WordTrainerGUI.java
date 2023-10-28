@@ -8,12 +8,23 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+/**
+ * Die Klasse erstellt ein GUI für die Eingabe eines Benutzers
+ * Hier bekommt der Benutzer ein Bild und kann zu diesem das richtige Wort eingeben
+ * Außerdem bekommt der Benutzer eine Statistik über die Versuche, sowie die richtigen und falschen Wörter
+ * @author Pia Arnold
+ * @version 23-10-28
+ */
 public class WordTrainerGUI extends JFrame {
 
     private JPanel panel, userInteraction, buttons;
     private JTextField tfield;
     private JLabel image;
 
+    /**
+     * Die Methoder erstellt ein GUI, womit der Benutzer zu einem Bild ein Wort raten kann und somit die Statistik über die Versuche, sowie richtigen und falschen Wörter bekommt
+     * @param trainer hier wird das Backend an die GUI übergeben
+     */
     public WordTrainerGUI(WordspellTrainer trainer){
         super("Wordtrainer");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -69,8 +80,12 @@ public class WordTrainerGUI extends JFrame {
 
     }
 
-    //mby überarbeiten
+    /**
+     * Die Methode setzt ein Bild auf eine spezielle Größe passend fürs GUI
+     * @param picture das gewünschte Bild, welches im GUI angezeigt werden soll wird an die Methode übergeben
+     */
     public void setImage(String picture){
+        //mby überarbeiten
         try {
             ImageIcon imageIcon = new ImageIcon(new URL(picture));
             int orWidth = imageIcon.getIconWidth();
