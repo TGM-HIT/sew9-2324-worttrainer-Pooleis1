@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e77c91a7-77f1-4d43-8a31-c72d6fc386ae" name="Changes" comment="Überarbeitet">
+    <list default="true" id="e77c91a7-77f1-4d43-8a31-c72d6fc386ae" name="Changes" comment="Persitenz implementiert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/JSONSaveManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/JSONSaveManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/Stats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/Stats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordPair.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordTrainerGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordTrainerGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordTrainerSaveManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordTrainerSaveManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordspellTrainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordspellTrainer.java" afterDir="false" />
@@ -65,9 +69,9 @@
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/PythonTesting/TestProject/TestDjango/TestProj",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
@@ -102,7 +106,8 @@
       <workItem from="1695217927458" duration="915000" />
       <workItem from="1696421397059" duration="4782000" />
       <workItem from="1697016036149" duration="1348000" />
-      <workItem from="1697378481148" duration="18873000" />
+      <workItem from="1697378481148" duration="20618000" />
+      <workItem from="1698400330810" duration="9134000" />
     </task>
     <task id="LOCAL-00001" summary="Gradel als Git machen">
       <created>1695219053990</created>
@@ -160,7 +165,28 @@
       <option name="project" value="LOCAL" />
       <updated>1697626862905</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Überarbeitet">
+      <created>1697639684649</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697639684649</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Überarbeitet">
+      <created>1697640387678</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697640387679</updated>
+    </task>
+    <task id="LOCAL-00011" summary="UML für Persistenz überarbeitet">
+      <created>1698445615781</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698445615782</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +211,8 @@
     <MESSAGE value="GUI programmiert" />
     <MESSAGE value="Fehler gefixed" />
     <MESSAGE value="Überarbeitet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Überarbeitet" />
+    <MESSAGE value="UML für Persistenz überarbeitet" />
+    <MESSAGE value="Persitenz implementiert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Persitenz implementiert" />
   </component>
 </project>
