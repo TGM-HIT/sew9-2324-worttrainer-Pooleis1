@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e77c91a7-77f1-4d43-8a31-c72d6fc386ae" name="Changes" comment="Persitenz implementiert">
+    <list default="true" id="e77c91a7-77f1-4d43-8a31-c72d6fc386ae" name="Changes" comment="Dokumentation hinzugefügt">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tgm.ac.at/parnold/WordPairTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tgm.ac.at/parnold/WordspellTrainerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/JSONSaveManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/JSONSaveManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/Stats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/Stats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordPair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordTrainerGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordTrainerGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordTrainerSaveManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordTrainerSaveManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordspellTrainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tgm/ac/at/parnold/WordspellTrainer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,29 +67,143 @@
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/PythonTesting/TestProject/TestDjango/TestProj",
-    "project.structure.last.edited": "Libraries",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.42873564",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tgm.ac.at.parnold.Main" />
-      <module name="Worttrainer.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tgm.ac.at.parnold.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Schule\5Jahrgang\1Semester\SEW\Worttrainer\src\test\java.tgm" />
+      <recent name="D:\Schule\5Jahrgang\1Semester\SEW\Worttrainer\src" />
+      <recent name="D:\Schule\5Jahrgang\1Semester\SEW\Worttrainer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.WordspellTrainerTest">
+    <configuration name="WordPairTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tgm.ac.at.parnold.WordPairTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="WordspellTrainerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tgm.ac.at.parnold.WordspellTrainerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="WordspellTrainerTest.savingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tgm.ac.at.parnold.WordspellTrainerTest.savingTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="WordspellTrainerTest.statisticTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tgm.ac.at.parnold.WordspellTrainerTest.statisticTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="WordspellTrainerTest.wordpairAddAndGetfromWordspellTrainerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tgm.ac.at.parnold.WordspellTrainerTest.wordpairAddAndGetfromWordspellTrainerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.WordspellTrainerTest" />
+        <item itemvalue="Gradle.WordspellTrainerTest.savingTest" />
+        <item itemvalue="Gradle.WordspellTrainerTest.wordpairAddAndGetfromWordspellTrainerTest" />
+        <item itemvalue="Gradle.WordspellTrainerTest.statisticTest" />
+        <item itemvalue="Gradle.WordPairTest" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +219,9 @@
       <workItem from="1696421397059" duration="4782000" />
       <workItem from="1697016036149" duration="1348000" />
       <workItem from="1697378481148" duration="20618000" />
-      <workItem from="1698400330810" duration="12107000" />
+      <workItem from="1698400330810" duration="13739000" />
+      <workItem from="1699796804552" duration="23000" />
+      <workItem from="1699874166314" duration="9848000" />
     </task>
     <task id="LOCAL-00001" summary="Gradel als Git machen">
       <created>1695219053990</created>
@@ -199,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698454418631</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Dokumentation hinzugefügt">
+      <created>1698457658445</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1698457658445</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +348,7 @@
     <MESSAGE value="Überarbeitet" />
     <MESSAGE value="UML für Persistenz überarbeitet" />
     <MESSAGE value="Persitenz implementiert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Persitenz implementiert" />
+    <MESSAGE value="Dokumentation hinzugefügt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dokumentation hinzugefügt" />
   </component>
 </project>

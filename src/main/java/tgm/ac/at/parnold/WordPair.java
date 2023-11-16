@@ -41,7 +41,8 @@ public class WordPair {
      * @param word hier wird das passende Wort übergeben
      */
     public void setWord(String word) {
-        if (word==null) return;
+        if (word==null) throw new IllegalArgumentException("This is not a correct word!");;
+        if (word.length()==0) throw new IllegalArgumentException("This is not a correct word!");
         this.word = word;
     }
 
@@ -51,6 +52,7 @@ public class WordPair {
      * @return die Methode gibt zurück ob das eingegeben Wort dem gespeicherten Word übereinstimmt und gibt je nachdem true oder false zurück
      */
     public boolean validate(String word){
+        if(word == null) return false;
         if(this.word.equalsIgnoreCase(word))return true;
         else return false;
     }
@@ -69,5 +71,13 @@ public class WordPair {
      */
     public String getWord(){
         return word;
+    }
+
+    @Override
+    public boolean equals(Object o){
+        if (!(o instanceof WordPair pair)) return false;
+        if(!this.getWord().equals(pair.getWord())) return false;
+        if(!this.imageURL.equals(pair.getImageURL())) return false;
+        return true;
     }
 }

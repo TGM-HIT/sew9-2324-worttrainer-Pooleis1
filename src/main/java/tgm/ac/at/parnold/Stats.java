@@ -25,9 +25,9 @@ public class Stats {
      * @param tryedWords hier können die Versuche übergeben werden
      */
     public Stats(int rightWords, int wrongWords, int tryedWords){
-        this.rightWords = rightWords;
-        this.wrongWords = wrongWords;
-        this.tryedWords = tryedWords;
+        if(rightWords<0)this.rightWords = 0; else this.rightWords = rightWords;
+        if(wrongWords<0)this.wrongWords = 0; else this.wrongWords = wrongWords;
+        if(tryedWords<0)this.tryedWords = 0; else this.tryedWords = tryedWords;
     }
 
     /**
@@ -77,5 +77,14 @@ public class Stats {
      */
     public int getTryedWords() {
         return tryedWords;
+    }
+
+    @Override
+    public boolean equals(Object o){
+        if(!(o instanceof Stats stats)) return false;
+        if(stats.getRightWords()!=this.getRightWords()) return false;
+        if(stats.getWrongWords()!=this.getWrongWords()) return false;
+        if(stats.getTryedWords()!=this.getTryedWords()) return false;
+        return true;
     }
 }

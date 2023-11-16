@@ -67,6 +67,7 @@ public class WordspellTrainer {
      * @param wordpair ein übergeben Wortpaar
      */
     public void addWordpair(WordPair wordpair){
+        if(wordpair==null) throw new IllegalArgumentException("You need to add a correct wordpair!");
         wordpairs.add(wordpair);
     }
 
@@ -163,6 +164,7 @@ public class WordspellTrainer {
      * @return das über Index ausgewählte Wort
      */
     public WordPair getWordpair(int index){
+        if(wordpairs.size()<=index) throw new IllegalArgumentException("The index is a invalid index");
         return wordpairs.get(index);
     }
 
@@ -189,4 +191,16 @@ public class WordspellTrainer {
     public String getTextStatistic(){
         return "Statistik:\nGesamt: " + stats.getTryedWords() + "; Richtig: " + stats.getRightWords() + "; Falsch: " + stats.getWrongWords();
     }
+
+    @Override
+    public boolean equals(Object o){
+        if(!(o instanceof WordspellTrainer trainer)) return false;
+
+        if(!trainer.getStatistic().equals(this.stats)) return false;
+        if(trainer.getWordpairs().length!=this.getWordpairs().length) return false;
+        for (int i = 0; i < this.getWordpairs().length; i++)
+            if (!this.getWordpairs()[i].equals(trainer.getWordpairs()[i])) return false;
+        return true;
+    }
+
 }
