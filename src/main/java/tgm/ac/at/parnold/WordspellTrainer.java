@@ -36,7 +36,7 @@ public class WordspellTrainer {
     /**
      * Die Klasse erstellt einen neuen Worttrainer mit einem übergebenen saveManager, welcher für das speichern und laden des Trainer zuständig ist und einem Pfad von dem das File geladen werden soll
      * @param saveManager ein saveManger welches das speichern und laden des Worttrainers übernimmt
-     * @param path der Pfad von dem ein File geladen werden soll und hingespeichert werden soll
+     * @param path der Pfad, von dem ein File geladen werden soll und hingespeichert werden soll
      */
     public WordspellTrainer(WordTrainerSaveManager saveManager, String path) throws IOException {
         stats = new Stats();
@@ -97,7 +97,7 @@ public class WordspellTrainer {
 
     /**
      * Die Methode wählt ein spezielles Wort aus der Wortliste über den Index aus
-     * @param index der Index gibt an welches Wort aus der Wortliste gewählt wird
+     * @param index der Index gibt an, welches Wort aus der Wortliste gewählt wird
      */
     public void pick(int index){
         pickedWord = wordpairs.get(index);

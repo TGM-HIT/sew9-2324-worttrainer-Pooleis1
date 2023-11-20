@@ -25,6 +25,7 @@ public class Main {
             words.add(new WordPair("https://www.kindersache.de/sites/default/files/styles/teaser/public/banana-42793_1280.jpg?itok=TbRV17I6", "Banane"));
             words.add(new WordPair("https://www.online-gartencenter.at/8738/pfirsich-kernechte-von-vorgebirge.jpg", "Pfirsich"));
             words.add(new WordPair("https://cdn.gurkerl.at/images/grocery/products/7957/7957-1603471900844.jpg", "Ananas"));
+            //words.add(new WordPair("https://www.google.com/", "Apfel"));
 
             trainer.addWordList(words);
             trainer.pickRandom();
